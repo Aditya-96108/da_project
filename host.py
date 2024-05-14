@@ -55,9 +55,9 @@ def main():
     if st.button('Diabetes Test Result'):
         diagnosis = diabetes_prediction([Pregnancies, Glucose, BloodPressure, SkinThickness, Insulin, BMI, DiabetesPedigreeFunction, Age])
         if (diagnosis== 0):
-           st.success('The person is not diabetic')
-       else:
-           st.error('The person is diabetic')
+            st.success('The person is not diabetic')
+        else:
+            st.error('The person is diabetic')
         
         
     
